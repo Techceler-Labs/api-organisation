@@ -5,6 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
+/**
+ * Starter class for organisation API
+ * @author hamakhaa
+ *
+ */
 @SpringBootApplication
 public class OrganisationApiApplication extends SpringBootServletInitializer {
 
