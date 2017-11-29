@@ -6,7 +6,7 @@
 	<groupId>com.techceler.api</groupId>
 	<artifactId>organisation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>Organisation API</name>
 	<description>Organisation API</description>
@@ -67,6 +67,13 @@
 			<scope>test</scope>
 		</dependency>
  	-->
+	<!-- marked the embedded servlet container as provided -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-tomcat</artifactId>
+		<scope>provided</scope>
+	</dependency>
+
  	</dependencies>
 
 	<build>
