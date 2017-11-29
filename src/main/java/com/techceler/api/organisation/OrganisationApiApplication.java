@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 /**
- * Starter class for organisation API
+ * Starter class for Organisation API
  * @author hamakhaa
  *
  */
