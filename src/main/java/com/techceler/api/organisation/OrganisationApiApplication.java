@@ -8,7 +8,6 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 /**
  * Starter class for Organisation API
  * @author hamakhaa
- *
  */
 @SpringBootApplication
 public class OrganisationApiApplication extends SpringBootServletInitializer {
