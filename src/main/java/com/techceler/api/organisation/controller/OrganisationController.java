@@ -21,7 +21,7 @@ public class OrganisationController {
 	@Autowired 
 	OrganisationService orgService;
 	
-	@RequestMapping(value = "/organisation/", method = RequestMethod.GET)    
+	@RequestMapping(value = "/organisation", method = RequestMethod.GET)    
 	public ResponseEntity<?> getOrganisations() {
 		return new ResponseEntity<List<Organisation>>(orgService.findOrganisations(), HttpStatus.OK);     
     }
