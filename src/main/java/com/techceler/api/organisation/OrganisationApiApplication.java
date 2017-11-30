@@ -16,7 +16,6 @@ public class OrganisationApiApplication extends SpringBootServletInitializer {
 		SpringApplication.run(OrganisationApiApplication.class, args);
 	}
 
-
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(OrganisationApiApplication.class);
